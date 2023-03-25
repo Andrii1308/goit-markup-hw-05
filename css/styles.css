@@ -260,12 +260,6 @@ body {
     border: none;
 }
 
-/* .open-modal:hover {
-    opacity: 0.8;
-} */
-
-
-
 /* Features */
 
 .visually-hidden {
@@ -483,16 +477,16 @@ body {
 .customer-icon {
     width: 104px;
     height: 56px;
-    fill: currentColor;
+    fill: var(--customers-icon-color);
 }
 
-.customer-icon:is(:hover, :focus) {
+/* .customer-icon:is(:hover, :focus) {
     fill: var(--header-hover-color);
 }
 
 .customer-icon {
     transition: fill var(--transition-dur);
-}
+} */
 
 .customer-link:is(:hover, :focus) {
     border: 1px var(--header-hover-color) solid;
