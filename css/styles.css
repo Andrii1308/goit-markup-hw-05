@@ -499,7 +499,7 @@ body {
     fill: var(--header-hover-color);
 }
 
-.customer-link .customer-icon {
+.customer-link.customer-icon {
     transition: fill var(--transition-dur);
 }
 
